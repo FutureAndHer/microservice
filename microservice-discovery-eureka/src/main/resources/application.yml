@@ -1,8 +1,18 @@
+#spring:
+#  security:
+#    basic:
+#      enabled: true
+#    user:
+#      name: vi
+#      password: 123
 server:
   port: 8761
 eureka:
   client:
-    service-url:
-      defaultZone: http://localhost:8761/eureka
-    fetch-registry: false
+    healthcheck:
+      enabled: true
     register-with-eureka: false
+    fetch-registry: false
+    service-url:
+#      defaultZone: http://vi:123@localhost:8761/eureka
+      defaultZone: http://localhost:8761/eureka
