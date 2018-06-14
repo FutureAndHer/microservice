@@ -6,4 +6,3 @@ create table user (
   age int(3),
   balance decimal(10,2),
   primary key (id));
-

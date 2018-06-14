@@ -1,9 +1,9 @@
-package com.vi.cloud.microservicesimpleprovideruser.controller;
+package com.vi.cloud.controller;
 
 import com.netflix.appinfo.InstanceInfo;
 import com.netflix.discovery.EurekaClient;
-import com.vi.cloud.microservicesimpleprovideruser.entity.User;
-import com.vi.cloud.microservicesimpleprovideruser.repository.UserRepository;
+import com.vi.cloud.entity.User;
+import com.vi.cloud.repository.UserRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.math.BigDecimal;
 import java.util.List;
 
 @RestController

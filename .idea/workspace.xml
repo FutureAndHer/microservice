@@ -2,23 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2bc5b64-018c-4743-bef4-8efc2093feab" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_2_0_0_RC2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-provider-user/src/main/java/com/vi/cloud/microservicesimpleprovideruser/MicroserviceProviderUserApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie/src/main/java/com/vi/config/TestConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-consumer-movie/microservice-consumer-movie.iml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-consumer-movie/microservice-consumer-movie.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-consumer-movie/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-consumer-movie/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-consumer-movie/src/main/java/com/vi/cloud/microservicesimpleconsumermovie/MicroserviceSimpleConsumerMovieApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-consumer-movie/src/main/java/com/vi/cloud/microservicesimpleconsumermovie/MicroserviceConsumerMovieApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-movie/src/main/java/com/vi/cloud/microservicesimpleconsumermovie/MicroserviceConsumerMovieApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-consumer-movie/src/main/java/com/vi/cloud/MicroserviceConsumerMovieApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-movie/src/main/java/com/vi/cloud/microservicesimpleconsumermovie/controller/MovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-consumer-movie/src/main/java/com/vi/cloud/controller/MovieController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-movie/src/main/java/com/vi/cloud/microservicesimpleconsumermovie/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-consumer-movie/src/main/java/com/vi/cloud/entity/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservice-consumer-movie/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-consumer-movie/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-discovery-eureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-discovery-eureka/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-discovery-eureka/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-discovery-eureka/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-discovery-eureka/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-discovery-eureka/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-provider-user/microservice-provider-user.iml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-provider-user/microservice-provider-user.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-provider-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-provider-user/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-provider-user/src/main/java/com/vi/cloud/microservicesimpleprovideruser/MicroserviceSimpleProviderUserApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-provider-user/src/main/java/com/vi/cloud/microservicesimpleprovideruser/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-provider-user/src/main/java/com/vi/cloud/microservicesimpleprovideruser/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-movie/target/classes/com/vi/cloud/microservicesimpleconsumermovie/MicroserviceConsumerMovieApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-movie/target/classes/com/vi/cloud/microservicesimpleconsumermovie/controller/MovieController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-movie/target/classes/com/vi/cloud/microservicesimpleconsumermovie/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-provider-user/src/main/java/com/vi/cloud/microservicesimpleprovideruser/MicroserviceProviderUserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-provider-user/src/main/java/com/vi/cloud/MicroserviceProviderUserApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-provider-user/src/main/java/com/vi/cloud/microservicesimpleprovideruser/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-provider-user/src/main/java/com/vi/cloud/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-provider-user/src/main/java/com/vi/cloud/microservicesimpleprovideruser/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-provider-user/src/main/java/com/vi/cloud/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-provider-user/src/main/java/com/vi/cloud/microservicesimpleprovideruser/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-provider-user/src/main/java/com/vi/cloud/repository/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservice-provider-user/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-provider-user/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-provider-user/src/main/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-provider-user/src/main/resources/schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-provider-user/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-provider-user/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-provider-user/target/classes/com/vi/cloud/microservicesimpleprovideruser/MicroserviceProviderUserApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-provider-user/target/classes/com/vi/cloud/microservicesimpleprovideruser/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-provider-user/target/classes/com/vi/cloud/microservicesimpleprovideruser/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-provider-user/target/classes/com/vi/cloud/microservicesimpleprovideruser/repository/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-provider-user/target/classes/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-provider-user/target/classes/schema.sql" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/microservice-provider-user/target/" />
@@ -51,30 +55,37 @@
       <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/microservice-provider-user/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+            <state relative-caret-position="90">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/microservice-consumer-movie/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+            <state relative-caret-position="270">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MicroserviceConsumerMovieApplication.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/microservice-consumer-movie/src/main/java/com/vi/cloud/microservicesimpleconsumermovie/MicroserviceConsumerMovieApplication.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-consumer-movie/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+            <state relative-caret-position="360">
+              <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MovieController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-consumer-movie/src/main/java/com/vi/cloud/controller/MovieController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="201">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#580#581#0" expanded="true" />
-                <element signature="e#667#668#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -82,8 +93,20 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -93,15 +116,22 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-discovery-eureka/src/main/java/com/vi/cloud/EurekaApplication.java" />
         <option value="$PROJECT_DIR$/microservice-provider-user/src/main/java/com/vi/cloud/microservicesimpleprovideruser/MicroserviceSimpleProviderUserApplication.java" />
-        <option value="$PROJECT_DIR$/microservice-provider-user/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/microservice-discovery-eureka/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-provider-user/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-discovery-eureka/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/microservice-provider-user/src/main/java/com/vi/cloud/microservicesimpleprovideruser/controller/UserController.java" />
         <option value="$PROJECT_DIR$/microservice-consumer-movie/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-consumer-movie/src/main/java/com/vi/cloud/microservicesimpleconsumermovie/MicroserviceSimpleConsumerMovieApplication.java" />
-        <option value="$PROJECT_DIR$/microservice-consumer-movie/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/microservice-consumer-movie/src/main/java/com/vi/cloud/microservicesimpleconsumermovie/MicroserviceConsumerMovieApplication.java" />
+        <option value="$PROJECT_DIR$/microservice-provider-user/src/main/java/com/vi/cloud/microservicesimpleprovideruser/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/microservice-consumer-movie/src/main/java/com/vi/cloud/microservicesimpleconsumermovie/controller/MovieController.java" />
+        <option value="$PROJECT_DIR$/microservice-provider-user/src/main/resources/schema.sql" />
+        <option value="$PROJECT_DIR$/microservice-provider-user/src/main/java/com/vi/cloud/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/microservice-consumer-movie/src/main/java/com/vi/cloud/config/TestConfiguration.java" />
+        <option value="$PROJECT_DIR$/microservice-consumer-movie/src/main/java/com/vi/cloud/MicroserviceConsumerMovieApplication.java" />
+        <option value="$PROJECT_DIR$/microservice-consumer-movie/src/main/java/com/vi/config/TestConfiguration.java" />
+        <option value="$PROJECT_DIR$/microservice-provider-user/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservice-consumer-movie/src/main/java/com/vi/cloud/controller/MovieController.java" />
+        <option value="$PROJECT_DIR$/microservice-consumer-movie/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -127,7 +157,38 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="microservice" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="microservice" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="microservice" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="clean" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="microservice-provider-user" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="microservice-provider-user" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="microservice-provider-user" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="clean" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
@@ -146,6 +207,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -186,7 +250,38 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="microservicesimpleconsumermovie" type="462c0819:PsiDirectoryNode" />
+              <item name="vi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-consumer-movie" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vi" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-consumer-movie" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vi" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-consumer-movie" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vi" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
@@ -226,9 +321,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -238,8 +330,11 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="SearchEverywhereHistoryKey" value="IRule&#9;PSI&#9;JAVA://com.netflix.loadbalancer.IRule&#10;WeightedResponseTimeRule&#9;PSI&#9;JAVA://com.netflix.loadbalancer.WeightedResponseTimeRule" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="H2" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/microservice-consumer-movie/src/main/java/com/vi" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -292,7 +387,8 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.vi.cloud.microservicesimpleconsumermovie.MicroserviceConsumerMovieApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.vi.cloud.MicroserviceConsumerMovieApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
     </configuration>
     <configuration name="MicroserviceProviderUserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="microservice-provider-user" />
@@ -302,7 +398,13 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.vi.cloud.microservicesimpleprovideruser.MicroserviceProviderUserApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.vi.cloud.MicroserviceProviderUserApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
+    <configuration name="NNN" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservice-provider-user" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.vi.cloud.MicroserviceProviderUserApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -328,6 +430,7 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.EurekaApplication" />
+      <item itemvalue="Spring Boot.NNN" />
       <item itemvalue="Spring Boot.MicroserviceProviderUserApplication" />
       <item itemvalue="Spring Boot.MicroserviceConsumerMovieApplication" />
     </list>
@@ -356,16 +459,18 @@
       <workItem from="1528797564432" duration="1262000" />
       <workItem from="1528799056723" duration="5014000" />
       <workItem from="1528808835877" duration="14000" />
-      <workItem from="1528814444853" duration="2891000" />
+      <workItem from="1528814444853" duration="2978000" />
+      <workItem from="1528854707219" duration="1929000" />
+      <workItem from="1528945189995" duration="104000" />
+      <workItem from="1528959824118" duration="6212000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17270000" />
+    <option name="totallyTimeSpent" value="25602000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -385,12 +490,13 @@
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38666666" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3987879" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32969698" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3090129" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32188842" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32969698" />
       <window_info id="Learn" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -399,7 +505,6 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -409,55 +514,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/microservice-discovery-eureka/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-discovery-eureka/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-discovery-eureka/src/main/java/com/vi/cloud/EurekaApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-provider-user/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="31" lean-forward="true" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-discovery-eureka/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -648,13 +704,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.0.0.RC2/spring-cloud-netflix-eureka-client-2.0.0.RC2.jar!/org/springframework/cloud/netflix/eureka/EnableEurekaClient.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -669,39 +718,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-discovery-eureka/src/main/java/com/vi/cloud/EurekaApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-discovery-eureka/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="37" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-provider-user/src/main/java/com/vi/cloud/microservicesimpleprovideruser/MicroserviceProviderUserApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-          <folding>
-            <element signature="e#477#478#0" expanded="true" />
-            <element signature="e#563#564#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-discovery-eureka/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-provider-user/src/main/java/com/vi/cloud/microservicesimpleprovideruser/repository/UserRepository.java">
+    <entry file="file://$PROJECT_DIR$/microservice-provider-user/src/main/java/com/vi/cloud/repository/UserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
@@ -722,55 +739,151 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-provider-user/src/main/java/com/vi/cloud/microservicesimpleprovideruser/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="120">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-provider-user/src/main/java/com/vi/cloud/MicroserviceProviderUserApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#747#748#0" expanded="true" />
-            <element signature="e#803#804#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie/pom.xml">
+    <entry file="file://$PROJECT_DIR$/microservice-provider-user/src/main/resources/data.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-provider-user/src/main/resources/schema.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-provider-user/src/main/java/com/vi/cloud/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding>
+            <element signature="e#1076#1077#0" expanded="true" />
+            <element signature="e#1132#1133#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-discovery-eureka/src/main/java/com/vi/cloud/EurekaApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-discovery-eureka/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.5/ribbon-loadbalancer-2.2.5.jar!/com/netflix/loadbalancer/WeightedResponseTimeRule.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="27" column="4" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#8164#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.5/ribbon-loadbalancer-2.2.5.jar!/com/netflix/loadbalancer/IRule.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.5/ribbon-loadbalancer-2.2.5.jar!/com/netflix/loadbalancer/RandomRule.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie/src/main/java/com/vi/cloud/MicroserviceConsumerMovieApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie/src/main/java/com/vi/config/TestConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#497#498#0" expanded="true" />
+            <element signature="e#536#537#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-discovery-eureka/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/microservice-provider-user/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+        <state relative-caret-position="-406">
+          <caret column="37" selection-start-column="37" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie/src/main/java/com/vi/cloud/controller/MovieController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/microservice-provider-user/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/microservice-consumer-movie/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie/src/main/java/com/vi/cloud/microservicesimpleconsumermovie/MicroserviceConsumerMovieApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#580#581#0" expanded="true" />
-            <element signature="e#667#668#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
