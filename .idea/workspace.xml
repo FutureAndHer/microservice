@@ -355,7 +355,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MicroserviceConsumerMovieApplication">
+  <component name="RunManager" selected="Spring Boot.NNN">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -387,8 +387,7 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.vi.cloud.MicroserviceConsumerMovieApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.vi.cloud.microservicesimpleconsumermovie.MicroserviceConsumerMovieApplication" />
     </configuration>
     <configuration name="MicroserviceProviderUserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="microservice-provider-user" />
@@ -398,8 +397,7 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.vi.cloud.MicroserviceProviderUserApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.vi.cloud.microservicesimpleprovideruser.MicroserviceProviderUserApplication" />
     </configuration>
     <configuration name="NNN" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="microservice-provider-user" />
@@ -436,6 +434,8 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.MicroserviceConsumerMovieApplication" />
+        <item itemvalue="Spring Boot.MicroserviceProviderUserApplication" />
         <item itemvalue="Spring Boot.MicroserviceConsumerMovieApplication" />
         <item itemvalue="Spring Boot.MicroserviceProviderUserApplication" />
       </list>
