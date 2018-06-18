@@ -19,11 +19,15 @@ logging:
     org.hibernate.type.description.sql.BasicBinder: trace
     org.hibernate.type.description.sql.BasicExtractor: trace
     com.vi: debug
-eureka:
-  client:
-    service-url:
-#      defaultZone: http://vi:123@localhost:8761/eureka
-      defaultZone: http://localhost:8761/eureka
-  instance:
-    prefer-ip-address: true
-    instance-id: ${spring.application.name}:${spring.application.instance_id:${server.port}}
+randomValue:
+  name: ${random.value}
+  age: ${random.int}
+  height: ${random.int(2, 5)}
+#eureka:
+#  client:
+#    service-url:
+##      defaultZone: http://vi:123@localhost:8761/eureka
+#      defaultZone: http://localhost:8761/eureka
+#  instance:
+#    prefer-ip-address: true
+#    instance-id: ${spring.application.name}:${spring.application.instance_id:${server.port}}

@@ -1,0 +1,10 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    metrics:
+      enabled: true
+    shutdown:
+      enabled: true # shutdown操作只能使用post请求，get请求无效

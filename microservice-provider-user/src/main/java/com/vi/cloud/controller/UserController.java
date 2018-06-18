@@ -7,6 +7,7 @@ import com.vi.cloud.repository.UserRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -30,6 +31,13 @@ public class UserController {
     @Autowired
     private DiscoveryClient discoveryClient;
 
+    @Value("${randomValue.name}")
+    private String name;
+
+    @Value("${randomValue.age}")
+    private int age;
+
+
     @GetMapping("/simple/{id}")
     public User findById(@PathVariable("id") Long id) {
         return userRepository.findById(id).get();
@@ -41,7 +49,7 @@ public class UserController {
         return instanceInfo.getHomePageUrl();
     }
 
-    @GetMapping("instance-info")
+    @GetMapping("/instance-info")
     public List<ServiceInstance> showInfo() {
 //        discoveryClient.getLocalServiceInstance() 这种方法已经过时
         List<ServiceInstance> serviceInstances = this.discoveryClient.getInstances("MICROSERVICE-PROVIDER-USER");
@@ -53,4 +61,5 @@ public class UserController {
         logger.info("==============");
         return serviceInstances;
     }
+
 }
