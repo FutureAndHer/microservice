@@ -9,9 +9,7 @@
 	<packaging>pom</packaging>
 
     <modules>
-        <module>microservice-consumer-movie</module>
-        <module>microservice-provider-user</module>
-        <module>microservice-discovery-eureka</module>
+        <module>microservice-eureka-server</module>
     </modules>
 
 	<properties>
