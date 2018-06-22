@@ -4,13 +4,14 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/microservice-discovery-eureka/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-client-hello/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/microservice-actuator/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-consumer-movie/pom.xml" />
       </set>
     </option>
   </component>

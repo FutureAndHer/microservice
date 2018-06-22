@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: ribbon-consumer
+server:
+  port: 9000
+eureka:
+  client:
+    service-url:
+      defaultZone: http://peer1:1111/eureka
+  instance:
+    prefer-ip-address: true
+    instance-id: localhost:${server.port}

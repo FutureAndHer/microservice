@@ -6,18 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="microservice-consumer-movie" />
-        <module name="microservice-discovery-eureka" />
-        <module name="microservice-eureka-server" />
-        <module name="microservice-provider-user" />
+        <module name="eureka-client-hello" />
+        <module name="eureka-server" />
+        <module name="ribbon-consumer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="eureka-client-hello" target="1.8" />
+      <module name="eureka-server" target="1.8" />
       <module name="microservice" target="1.8" />
       <module name="microservice-consumer-movie" target="1.8" />
       <module name="microservice-discovery-eureka" target="1.8" />
-      <module name="microservice-eureka-server" target="1.8" />
       <module name="microservice-provider-user" target="1.8" />
+      <module name="ribbon-consumer" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
