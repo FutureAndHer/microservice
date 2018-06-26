@@ -5,8 +5,6 @@ eureka:
   client:
     service-url:
       defaultZone: http://peer1:1111/eureka/
-    healthcheck:
-          enabled: true
   instance:
     instance-id: http://localhost:${server.port}
     prefer-ip-address: true
